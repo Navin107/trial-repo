@@ -1,6 +1,7 @@
 import boto3
 import pandas as pd
 import json
+import pandas
 
 class S3Reader:
     def __init__(self, access_key, secret_key):
